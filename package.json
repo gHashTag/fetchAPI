@@ -1,0 +1,20 @@
+{
+  "name": "nodeAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "cross-env NODE_ENV=dev nodemon --exec babel-node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.2",
+    "cross-env": "^5.1.4",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "express-http-proxy": "^1.2.0",
+    "graphql": "^0.13.2",
+    "net": "^1.0.2",
+    "sockjs": "^0.3.19",
+    "socksjs": "^0.5.0"
+  }
+}
